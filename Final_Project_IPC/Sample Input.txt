@@ -1,0 +1,24 @@
+Initialization
+?- consult('database.pl').
+
+Input Test Cases:
+?- guilty(hel).
+Expected Output: Rule 78 is applicable
+	true .
+?- guilty(lea).
+Expected Output: Rule 76 is applicable
+	true .
+?- guilty(temp).
+Expected Output: Rule 83 is applicable
+	true .
+?- guilty(ravi). 
+Expected Output: Rule 159 and 160 are applicable
+	true .
+?- guilty(teja).
+Expected Output: Rule 130 is applicable
+	true .
+?- abettor(ayush).
+Expected Output: false.
+?- guilty(ram).
+Expected Output: Rule 96 is applicable
+		 true 
