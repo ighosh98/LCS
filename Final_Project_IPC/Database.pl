@@ -6,3 +6,5 @@ list([done_by_accident(ayush),without_criminal_intention(ayush),lawful_act(ayush
 list([aiding_escape_prisoner(teja),rescue_prisoner(teja),(harbour_prisoner(teja))]).
 (list([immature_understanding(temp),child_more_than_seven_less_than_twelve(temp),incapable_of_judgement(temp)])).
 list([cause_harm(ram),rape(ram)]).
+(list([abetment(hari),death_or_life_imprisonment_offences(hari)])).
+list([abetting(sri),different_act_done(sri)]).

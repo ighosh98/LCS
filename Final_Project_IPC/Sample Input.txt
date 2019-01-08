@@ -22,3 +22,9 @@ Expected Output: false.
 ?- guilty(ram).
 Expected Output: Rule 96 is applicable
 		 true 
+?- liable_for(sri,sri).
+Expected Output: Rule 112 and 113 are applicable
+		true .
+?- guilty(hari).
+Expected Output: Rule 115 is applicable
+		true .
